@@ -17,7 +17,8 @@ If you wish to support my work, please find my eth/storj wallet address below or
 
 ## Usage
 
-1. Install <a href="https://scriptable.app">Scriptable</a> on your iPhone from the App Store.
-2. Download storjWidget.js from this repository.
-3. Import storjWidget.js in Scriptable.
-4. Adjust lines 5 + 6 `widget.url` and `let url=`. Set `url` to the URL of your storjWidget-Exporter. Setting `widget.url` is optional. If you set it, you can configure Scriptable that it opens the specified `widget.url` in case you click on the widget on your homescreen. I suggest to point that to your Grafana dashboard in case you have that.
+1. Setup and run [storjWidget-Exporter](https://github.com/striker43/storjWidget-exporter).
+2. Install <a href="https://scriptable.app">Scriptable</a> on your iPhone from the App Store.
+3. Download storjWidget.js from this repository.
+4. Import storjWidget.js in Scriptable.
+5. Adjust lines 5 + 6 `widget.url` and `let url=`. Set `url` to the URL of your storjWidget-Exporter. Setting `widget.url` is optional. If you set it, you can configure Scriptable that it opens the specified `widget.url` in case you click on the widget on your homescreen. I suggest to point that to your Grafana dashboard in case you have that.
